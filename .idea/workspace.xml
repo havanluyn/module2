@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thuchanh1.1/src/ThucHanh6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/src/ThucHanh7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ThucHanh6">
-    <configuration name="ThucHanh2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThucHanh2" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThucHanh7">
     <configuration name="ThucHanh3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThucHanh3" />
       <module name="Module2" />
@@ -81,13 +74,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThucHanh7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThucHanh7" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThucHanh7" />
         <item itemvalue="Application.ThucHanh6" />
         <item itemvalue="Application.ThucHanh5" />
         <item itemvalue="Application.ThucHanh4" />
         <item itemvalue="Application.ThucHanh3" />
-        <item itemvalue="Application.ThucHanh2" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662625015008</updated>
       <workItem from="1662686527425" duration="202000" />
-      <workItem from="1662686749157" duration="4227000" />
+      <workItem from="1662686749157" duration="6186000" />
     </task>
     <servers />
   </component>
