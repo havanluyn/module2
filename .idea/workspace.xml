@@ -53,7 +53,7 @@
       <recent name="C:\Users\LeThiThuyTrang\Desktop\Module2\Bai1\BaiVongLap\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaiTapVongLap2">
+  <component name="RunManager" selected="Application.BaiTapVongLap3">
     <configuration name="BaiTap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap2" />
       <module name="Bai1" />
@@ -61,15 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap3" />
-      <module name="Bai1" />
+    <configuration name="BaiTapVongLap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapVongLap2" />
+      <module name="BaiVongLap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTapVongLap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapVongLap2" />
+    <configuration name="BaiTapVongLap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapVongLap3" />
       <module name="BaiVongLap" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaiTapVongLap3" />
         <item itemvalue="Application.BaiTapVongLap2" />
         <item itemvalue="Application.BaitapVongLap1" />
         <item itemvalue="Application.BaiTap2" />
         <item itemvalue="Application.ThucHanhVongLap1" />
-        <item itemvalue="Application.BaiTap3" />
       </list>
     </recent_temporary>
   </component>
