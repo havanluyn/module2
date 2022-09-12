@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thuchanh1.1/src/BaiTap3.java" afterDir="false" />
+    <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="git add .">
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/Bai2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/src/ThucHanhVongLap1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/src/ThucHanhVongLap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/src/ThucHanhVongLap3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/Bai2/src/ThucHanhVongLap4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh1.1/src/Ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/BaiTap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/BaiTap2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/BaiTap3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/ThucHanh7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thuchanh1.1/src/BaiTap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanh1.1/src/BaiTap2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,49 +72,56 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BaiTap3">
+  <component name="RunManager" selected="Application.ThucHanhVongLap1">
     <configuration name="BaiTap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap1" />
-      <module name="Module2" />
+      <module name="Bai1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BaiTap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap2" />
-      <module name="Module2" />
+      <module name="Bai1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BaiTap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap3" />
-      <module name="Module2" />
+      <module name="Bai1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThucHanh6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThucHanh6" />
-      <module name="Module2" />
+    <configuration name="Ex" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex" />
+      <module name="Bai1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ThucHanh7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThucHanh7" />
-      <module name="Module2" />
+      <module name="Bai1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThucHanhVongLap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThucHanhVongLap1" />
+      <module name="BaiVongLap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaiTap3" />
+        <item itemvalue="Application.ThucHanhVongLap1" />
         <item itemvalue="Application.BaiTap2" />
+        <item itemvalue="Application.BaiTap3" />
         <item itemvalue="Application.BaiTap1" />
         <item itemvalue="Application.ThucHanh7" />
-        <item itemvalue="Application.ThucHanh6" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +134,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662625015008</updated>
       <workItem from="1662686527425" duration="202000" />
-      <workItem from="1662686749157" duration="12515000" />
+      <workItem from="1662686749157" duration="14256000" />
+      <workItem from="1662945129589" duration="4478000" />
+      <workItem from="1662952005481" duration="135000" />
+      <workItem from="1662952152686" duration="64000" />
+      <workItem from="1662952232776" duration="430000" />
+      <workItem from="1662952685019" duration="105000" />
+      <workItem from="1662952828928" duration="97000" />
+      <workItem from="1662953997006" duration="104000" />
+      <workItem from="1662954361890" duration="109000" />
+      <workItem from="1662954944908" duration="20000" />
     </task>
     <servers />
   </component>

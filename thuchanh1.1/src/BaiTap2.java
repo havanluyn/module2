@@ -138,6 +138,12 @@ public class BaiTap2 {
         System.out.println(hundreds + " " + ten);
         else
             System.out.println(hundreds + " " + ten + " " + one);
+        if (n==10){
+            System.out.println("ten");
+        }
+        if (n==0){
+            System.out.println("zero");
+        }
     }
 }
 
