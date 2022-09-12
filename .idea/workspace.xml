@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/BaiMangVaPhuongThuc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap1Mang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap2Mang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap3Mang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap4Mang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiVongLap/src/BaiTapVongLap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiVongLap/src/BaiTapVongLap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiVongLap/src/BaiTapVongLap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiVongLap/src/BaiTapVongLap3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2ETgTq6ryig37plW4DWMTROeqyI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,31 +63,31 @@
       <recent name="C:\Users\LeThiThuyTrang\Desktop\Module2\Bai1\BaiVongLap\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThucHanhMang1">
-    <configuration name="BaiTap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap2" />
-      <module name="Bai1" />
+  <component name="RunManager" selected="Application.BaiTap4Mang">
+    <configuration name="BaiTap1Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap1Mang" />
+      <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTapVongLap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapVongLap2" />
-      <module name="BaiVongLap" />
+    <configuration name="BaiTap2Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap2Mang" />
+      <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTapVongLap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapVongLap3" />
-      <module name="BaiVongLap" />
+    <configuration name="BaiTap3Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap3Mang" />
+      <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaitapVongLap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaitapVongLap1" />
-      <module name="BaiVongLap" />
+    <configuration name="BaiTap4Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap4Mang" />
+      <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThucHanhMang1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThucHanhMang1" />
+    <configuration name="ThucHanhMang3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThucHanhMang3" />
       <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThucHanhMang1" />
-        <item itemvalue="Application.BaiTapVongLap3" />
-        <item itemvalue="Application.BaiTapVongLap2" />
-        <item itemvalue="Application.BaitapVongLap1" />
-        <item itemvalue="Application.BaiTap2" />
+        <item itemvalue="Application.BaiTap4Mang" />
+        <item itemvalue="Application.BaiTap3Mang" />
+        <item itemvalue="Application.BaiTap2Mang" />
+        <item itemvalue="Application.BaiTap1Mang" />
+        <item itemvalue="Application.ThucHanhMang3" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +136,7 @@
       <workItem from="1662954361890" duration="109000" />
       <workItem from="1662954944908" duration="20000" />
       <workItem from="1662955107459" duration="3366000" />
-      <workItem from="1662965136968" duration="1046000" />
+      <workItem from="1662965136968" duration="9564000" />
     </task>
     <servers />
   </component>
