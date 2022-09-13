@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap1Mang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap2Mang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap3Mang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap4Mang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/BaiTap5Mang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang2.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/ThucHanhMang2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/BaiTap4Mang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/BaiTap4Mang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/ThucHanhMang2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/ThucHanhMang2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +60,7 @@
       <recent name="C:\Users\LeThiThuyTrang\Desktop\Module2\Bai1\BaiVongLap\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaiTap4Mang">
-    <configuration name="BaiTap1Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap1Mang" />
-      <module name="BaiMangVaPhuongThuc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaiTap2Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap2Mang" />
-      <module name="BaiMangVaPhuongThuc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThucHanhMang2">
     <configuration name="BaiTap3Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap3Mang" />
       <module name="BaiMangVaPhuongThuc" />
@@ -92,6 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BaiTap5Mang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap5Mang" />
+      <module name="BaiMangVaPhuongThuc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex" />
       <module name="Bai1" />
@@ -99,8 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThucHanhMang3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThucHanhMang3" />
+    <configuration name="ThucHanhMang1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThucHanhMang1" />
+      <module name="BaiMangVaPhuongThuc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThucHanhMang2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThucHanhMang2" />
       <module name="BaiMangVaPhuongThuc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThucHanhMang2" />
+        <item itemvalue="Application.BaiTap5Mang" />
+        <item itemvalue="Application.ThucHanhMang1" />
         <item itemvalue="Application.BaiTap4Mang" />
         <item itemvalue="Application.BaiTap3Mang" />
-        <item itemvalue="Application.BaiTap2Mang" />
-        <item itemvalue="Application.BaiTap1Mang" />
-        <item itemvalue="Application.ThucHanhMang3" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +134,8 @@
       <workItem from="1662954944908" duration="20000" />
       <workItem from="1662955107459" duration="3366000" />
       <workItem from="1662965136968" duration="9564000" />
+      <workItem from="1663031606639" duration="171000" />
+      <workItem from="1663031858290" duration="4890000" />
     </task>
     <servers />
   </component>
