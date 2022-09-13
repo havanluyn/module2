@@ -27,10 +27,20 @@ public class BaiTap5Mang {
             System.out.println("Nhap cot muon tinh tong");
             colDel = sc.nextInt();
         }
-        float total = 0;
+        float totalCol = 0;
         for (int i = 0; i < row; i++) {
-            total = total + array[i][colDel];
+            totalCol = totalCol + array[i][colDel];
         }
-        System.out.println("Tong cot thu "+colDel+" la "+total);
+        System.out.println("Tong cot thu "+colDel+" la "+totalCol);
+        float totalDia=0;
+        if(col==row){
+            for (int i = 0; i < row; i++){
+                totalDia=totalDia+array[i][i];
+            }
+            System.out.println("Tong duong cheo chinh cua ma tran vuong "+row+" x "+row+" la: "+ totalDia);
+        }
+        else {
+            System.out.println("Ma tran khong co duong cheo chinh");
+        }
     }
 }
