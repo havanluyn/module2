@@ -17,7 +17,7 @@ public class BaiTap2Mang {
         int x = sc.nextInt();
         System.out.println("Nhap vi tri muon chen:");
         int index = sc.nextInt();
-        while (index < 0 || index > array.length - 2) {
+        while (index < 0 || index > array.length - 1) {
             System.out.println("Khong the chen vao vi tri ban vua nhap:");
             System.out.println("Nhap lai vi tri ban muon chen:");
             index = sc.nextInt();

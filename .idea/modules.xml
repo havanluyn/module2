@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Bai1.iml" filepath="$PROJECT_DIR$/Bai1.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaiMangVaPhuongThuc/BaiMangVaPhuongThuc.iml" filepath="$PROJECT_DIR$/BaiMangVaPhuongThuc/BaiMangVaPhuongThuc.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaiVongLap/BaiVongLap.iml" filepath="$PROJECT_DIR$/BaiVongLap/BaiVongLap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPClass/OOPClass.iml" filepath="$PROJECT_DIR$/OOPClass/OOPClass.iml" />
     </modules>
   </component>
 </project>
