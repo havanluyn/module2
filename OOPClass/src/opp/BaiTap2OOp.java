@@ -1,3 +1,5 @@
+package opp;
+
 public class BaiTap2OOp {
     public static void main(String[] args) {
         Fan fan=new Fan(2,true,4,"red");
@@ -87,4 +89,6 @@ public class BaiTap2OOp {
             return str;
         }
     }
+
 }
+

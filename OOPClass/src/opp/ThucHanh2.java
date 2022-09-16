@@ -1,3 +1,5 @@
+package opp;
+
 import java.util.Scanner;
 
 public class ThucHanh2 {
