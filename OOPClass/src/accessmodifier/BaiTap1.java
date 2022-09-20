@@ -21,7 +21,10 @@ public class BaiTap1 {
         }
 
         public double getArea() {
-            return radius*radius*3.14;
+            return radius*radius*Math.PI;
+        }
+        public double getPerimeter() {
+            return 2 * radius * Math.PI;
         }
     }
 }

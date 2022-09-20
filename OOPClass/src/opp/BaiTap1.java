@@ -5,36 +5,42 @@ import java.time.LocalTime;
 
 public class BaiTap1 {
     public static void main(String[] args) {
-        int []a= new int [100000];
+        int[] a = new int[100000];
         for (int i = 0; i < 100000; i++) {
-            a[i]=(int)(Math.random()*1000);
+            a[i] = (int) (Math.random() * 1000);
         }
-        LocalTime start,end;
-        start=LocalTime.now();
-        a=OOPstopWatch.selectionSort(a);
-        end=LocalTime.now();
-        stopWatch sw = new stopWatch(start,end);
+        LocalTime start, end;
+        start = LocalTime.now();
+        a = OOPstopWatch.selectionSort(a);
+        end = LocalTime.now();
+        stopWatch sw = new stopWatch(start, end);
         System.out.println(start);
         System.out.println(end);
         System.out.println(sw.getElapsedTime());
     }
-    public static class stopWatch{
-        private LocalTime startTime,endTime;
-        public stopWatch(){
-            startTime=LocalTime.now();
+
+    public static class stopWatch {
+        private LocalTime startTime, endTime;
+
+        public stopWatch() {
+            startTime = LocalTime.now();
         }
-        public stopWatch(LocalTime startTime,LocalTime endTime){
-            this.startTime=startTime;
-            this.endTime=endTime;
+
+        public stopWatch(LocalTime startTime, LocalTime endTime) {
+            this.startTime = startTime;
+            this.endTime = endTime;
         }
-        public void start(){
-            startTime=LocalTime.now();
+
+        public void start() {
+            startTime = LocalTime.now();
         }
-        public void end(){
-            endTime=LocalTime.now();
+
+        public void end() {
+            endTime = LocalTime.now();
         }
-        public int getElapsedTime(){
-            int milisecond=-(((startTime.getHour()-endTime.getHour())*3600+(startTime.getMinute()-endTime.getMinute())*60+(startTime.getSecond()-endTime.getSecond()))*1000);
+
+        public int getElapsedTime() {
+            int milisecond = -(((startTime.getHour() - endTime.getHour()) * 3600 + (startTime.getMinute() - endTime.getMinute()) * 60 + (startTime.getSecond() - endTime.getSecond())) * 1000);
             return milisecond;
         }
     }
