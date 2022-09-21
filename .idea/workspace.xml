@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/BaiTapChuoiTangDan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/BaiTapTangDan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiMangVaPhuongThuc/src/KiemTraMangCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/inheritance/BaiTap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/inheritance/BaiTap3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/BaiTap3Mang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaiMangVaPhuongThuc/BaiTap3Mang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPClass/src/sortandfind/BaiTapChuoiTangDan.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/BaiTapChuoiTangDan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPClass/src/sortandfind/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPClass/src/sortandfind/TestFindSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/TestFindSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +175,8 @@
       <workItem from="1663316935535" duration="3694000" />
       <workItem from="1663549644635" duration="6630000" />
       <workItem from="1663570986825" duration="8606000" />
-      <workItem from="1663636545339" duration="13904000" />
+      <workItem from="1663636545339" duration="17665000" />
+      <workItem from="1663722675164" duration="5236000" />
     </task>
     <servers />
   </component>

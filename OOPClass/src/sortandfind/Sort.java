@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Sort {
 
-    public static int[] bubbleSort(int[] numbers){
+    public static void bubbleSort(int[] numbers){
         for (int i = 0; i < numbers.length-1; i++) {
             for (int j = numbers.length-1; j>i; j--) {
                 if (numbers[j] < numbers[j-1]) {
@@ -16,9 +16,19 @@ public class Sort {
                 }
             }
         }
-        return numbers;
     }
-    public static int[] insertionSort(int[] numbers){
+    public void interchangeSort(int [] numbers){
+        for(int i=0;i<numbers.length-1;i++){
+            for(int j=i+1;j<numbers.length;j++){
+                if (numbers[i] < numbers[j]) {
+                    int temp = numbers[j];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
+                }
+            }
+        }
+    }
+    public static void insertionSort(int[] numbers){
          for (int i = 0; i < numbers.length - 1; i++) {
             int j = i + 1;
             int number = numbers[j];
@@ -28,9 +38,8 @@ public class Sort {
             }
             numbers[j] = number;
         }
-        return numbers;
     }
-    public static int[] selectionSort(int[] numbers){
+    public static void selectionSort(int[] numbers){
         for (int i=0;i<numbers.length-1;i++){
             int minindex=i;
             for (int j=i+1;j<numbers.length;j++){
@@ -42,7 +51,5 @@ public class Sort {
             numbers[minindex]=numbers[i];
             numbers[i]=min;
         }
-        return numbers;
     }
-
 }

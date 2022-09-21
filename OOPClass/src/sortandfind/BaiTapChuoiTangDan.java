@@ -41,36 +41,36 @@ public class BaiTapChuoiTangDan {
         }
         return st;
     }
-    public static String sOrtString(String str) {
-        String st = "";
-        int count=0;
-        while(count<str.length()){
-            char min = '}';
-            for (int i = 0; i < str.length(); i++) {
-                boolean check = false;
-                if (str.charAt(i) <= min) {
-                    if (st.length()==0){
-                        min = str.charAt(i);
-                    }else {
-                        for (int j = 0; j < st.length(); j++) {
-                            if (str.charAt(i) == st.charAt(j)) {
-                                check = true;
-                            }
-                        }
-                    }
-                    if (check == false) {
-                        min = str.charAt(i);
-                    }
-                }
-            }
-            if(min!='}'){
-                st = st + min;
-                count++;
-            }else{
-                count++;
-            }
-        }
-        return st;
-    }
+//    public static String sOrtString(String str) {
+//        String st = "";
+//        int count=0;
+//        while(count<str.length()){
+//            char min = '}';
+//            for (int i = 0; i < str.length(); i++) {
+//                boolean check = false;
+//                if (str.charAt(i) <= min) {
+//                    if (st.length()==0){
+//                        min = str.charAt(i);
+//                    }else {
+//                        for (int j = 0; j < st.length(); j++) {
+//                            if (str.charAt(i) == st.charAt(j)) {
+//                                check = true;
+//                            }
+//                        }
+//                    }
+//                    if (check == false) {
+//                        min = str.charAt(i);
+//                    }
+//                }
+//            }
+//            if(min!='}'){
+//                st = st + min;
+//                count++;
+//            }else{
+//                count++;
+//            }
+//        }
+//        return st;
+//    }
 }
 
