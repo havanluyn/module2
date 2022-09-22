@@ -1,6 +1,31 @@
-package inheritance;
+package abstractclassandinterface;
 
-public class ThucHanh1 {
+
+public class BaiTap1 {
+    public static void main(String[] args) {
+        Shape[] shape=new Shape[5];
+        shape[0]=new Circle(2);
+        shape[1]=new Circle(0.5);
+        shape[2]=new Rectangle(4,5);
+        shape[3]=new Circle(4);
+        shape[4]=new Rectangle(3,5);
+        for (Shape item:shape) {
+            if (item instanceof Circle){
+                System.out.println(item);
+                double percent=Math.random()*(100-1)+1;
+                System.out.println(percent);
+                ((Circle) item).Resize(percent);
+                System.out.println(item);
+            }
+            else {
+                System.out.println(item);
+                double percent=Math.random()*(100-1)+1;
+                System.out.println(percent);
+                ((Rectangle)item).Resize(percent);
+                System.out.println(item);
+            }
+        }
+    }
     public static class Shape{
         public String color;
         public boolean filled;
@@ -32,10 +57,10 @@ public class ThucHanh1 {
 
 
         public String toString(){
-           return "A Shape with color of"+ this.color +" and "+this.filled;
+            return "A Shape with color of"+ this.color +" and "+this.filled;
         }
     }
-    public static class Circle extends Shape{
+    public static class Circle extends Shape implements Resizeable {
         public double radius;
 
         public Circle() {
@@ -64,29 +89,33 @@ public class ThucHanh1 {
         public double getPerimeter() {
             return 2 * radius * Math.PI;
         }
+
         public String toString(){
             return "A Circle with radius="
-                    + getRadius()
-                    + ", which is a subclass of "
-                    + super.toString();
+                    + getRadius();
+        }
+
+        @Override
+        public void Resize(double percent) {
+            this.radius=radius*(100+percent)/100;
         }
     }
-    public class Rectangle extends Shape {
+    public static class Rectangle extends Shape implements Resizeable {
         private double width = 1.0;
-        private double length = 1.0;
+        private double hight = 1.0;
 
         public Rectangle() {
         }
 
         public Rectangle(double width, double length) {
             this.width = width;
-            this.length = length;
+            this.hight = hight;
         }
 
-        public Rectangle(double width, double length, String color, boolean filled) {
+        public Rectangle(double width, double hight, String color, boolean filled) {
             super(color, filled);
             this.width = width;
-            this.length = length;
+            this.hight = hight;
         }
 
         public double getWidth() {
@@ -98,28 +127,31 @@ public class ThucHanh1 {
         }
 
         public double getLength() {
-            return length;
+            return hight;
         }
 
         public void setLength(double length) {
-            this.length = length;
+            this.hight = length;
         }
 
         public double getArea() {
-            return width * this.length;
+            return width * this.hight;
         }
 
         public double getPerimeter() {
-            return 2 * (width + this.length);
+            return 2 * (width + this.hight);
         }
 
+        @Override
+        public void Resize(double percent) {
+            this.width=width*(100+percent)/100;
+            this.hight=hight*(100+percent)/100;
+        }
         public String toString() {
             return "A Rectangle with width="
                     + getWidth()
-                    + " and length="
-                    + getLength()
-                    + ", which is a subclass of "
-                    + super.toString();
+                    + " and length= "
+                    + getLength();
         }
     }
 }
