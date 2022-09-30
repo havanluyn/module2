@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e31a492-8367-4b04-9759-0377b6c90557" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/CleanCode/Refactoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/CleanCode/Refactoring1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/CleanCode/Refactoring2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/CleanCode/Refactoring3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/list/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPClass/src/list/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/Queue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/stack/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/stack/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/stack/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPClass/src/stack/TreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPClass/src/list/MainList.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/list/MainList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPClass/src/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/list/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPClass/src/quanlinhanvien/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/quanlinhanvien/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPClass/src/quanlinhanvien/uiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/quanlinhanvien/uiManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPClass/src/sortandfind/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPClass/src/sortandfind/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOPClass/list/MainList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPClass/list/MainList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOPClass/list/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPClass/list/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOPClass/quanlinhanvien/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPClass/quanlinhanvien/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOPClass/quanlinhanvien/uiManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOPClass/quanlinhanvien/uiManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +70,7 @@
       <recent name="animalsandtransport" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainList">
-    <configuration name="BaiTap1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractclassandinterface.BaiTap1" />
-      <module name="OOPClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstractclassandinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeMap">
     <configuration name="BaiTap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractclassandinterface.BaiTap2" />
       <module name="OOPClass" />
@@ -152,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.TreeMap" />
+      <module name="OOPClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMap" />
         <item itemvalue="Application.MainList" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BaiTap2" />
-        <item itemvalue="Application.BaiTap1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +195,7 @@
       <workItem from="1664154589343" duration="6501000" />
       <workItem from="1664414525297" duration="13050000" />
       <workItem from="1664500353276" duration="5488000" />
-      <workItem from="1664520035904" duration="1071000" />
+      <workItem from="1664520035904" duration="4651000" />
     </task>
     <servers />
   </component>
