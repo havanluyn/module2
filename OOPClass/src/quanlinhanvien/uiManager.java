@@ -1,5 +1,6 @@
 package quanlinhanvien;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -16,6 +17,19 @@ public class uiManager {
     public void insert(Employee employee) {
         employees.add(employee);
         System.out.println(employee);
+    }
+    public void writeFile(File file, Employee employee){
+        try {
+            OutputStream os=new FileOutputStream(file);
+            ObjectOutputStream oos=new ObjectOutputStream(os);
+            oos.writeObject(employee);
+            oos.flush();
+            oos.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public Employee insertType(int type) {

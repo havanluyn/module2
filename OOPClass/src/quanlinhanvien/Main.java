@@ -1,5 +1,6 @@
 package quanlinhanvien;
 
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -26,7 +27,10 @@ public class Main {
                 case 1:
                     System.out.println("Nhập kiểu nhân viên: 0. Experience || 1. Fresher || 2. Intern ");
                     int type = sc.nextInt();
-                    uimanager.insert(uimanager.insertType(type));
+                    Employee e=uimanager.insertType(type);
+                    uimanager.insert(e);
+                    File file=new File("C:\\Users\\LeThiThuyTrang\\Desktop\\Module2\\Bai1\\OOPClass\\src\\quanlinhanvien\\file.data");
+                    uimanager.writeFile(file,e);
                     break;
                 case 2:
                     System.out.println("Nhập ID nhân viên bạn muốn sửa");

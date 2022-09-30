@@ -34,7 +34,7 @@ public class Sort {
         for (int i = 0; i < numbers.length - 1; i++) {
             int j = i + 1;
             int number = numbers[j];
-            while (j - 1 >= 0 && number < numbers[j - 1]) {
+            while (j - 1 >= 0 && number < numbers[ j - 1]) {
                 numbers[j] = numbers[j - 1];
                 j--;
             }
